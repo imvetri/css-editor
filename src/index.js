@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 
 // Dependencies.
 
-
+import Border from "./Border/Border";
 import style from "./Index/index.css";
 
 // Components.
@@ -18,7 +18,7 @@ class Index extends Component {
     render(){
         return (
             <div className = {style.showBackground}>
-            lalala
+            <Border/>
             </div>
         );
     }
